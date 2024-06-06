@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="data-box">
+        <div class="data-card">
+          <img src="./fetch-app/images/data.jpg" alt="data graphic" />
+          <button id="getData">Get Data</button>
+          <p id="message"></p>
+        </div>
+        <div class="list-card">
+          <img src="./fetch-app/images/list.avif" alt="data graphic" />
+          <button id="getList">Get List</button>
+          <p id="posts"></p>
+        </div>
+      </div>
+      <div class="form-box">
+        <form id="myForm">
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="secondName"
+            id="secondName"
+            placeholder="Second Name"
+          />
+          <button id="submitForm">Submit Form</button>
+        </form>
+        <p id="greeting"></p>
+      </div>
+    </div>
+
+    <script src="./fetch-app/script.js"></script>
+  </body>
+</html>
